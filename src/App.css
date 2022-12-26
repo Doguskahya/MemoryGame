@@ -1,0 +1,72 @@
+.App {
+  max-width: 860px;
+  margin: 40px auto;
+}
+
+.animal-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.animal-grid-six {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.settings {
+  width: 85%;
+  max-width: 450px;
+  margin: 0 auto;
+
+  padding: 0 1rem;
+  font-weight: 400;
+}
+
+.settings h2 {
+  margin-top: 1rem;
+}
+
+.settings h4 {
+  margin-bottom: 0.3rem;
+}
+
+.setting {
+  border-radius: 6px;
+  color: black;
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: space-evenly;
+  background: #fff;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.buttons {
+  display: flex;
+}
+
+.button  {
+  padding: 0.5rem 1.5rem;
+  margin: 2rem auto 1.75rem;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  color: rgba(56, 56, 56, 0.85);
+}
+
+.button:hover {
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 8px 32px 0 rgba(0, 1, 10, 0.371);
+}
+
+.radioBox #checked {
+  background-color: red;
+} 
+

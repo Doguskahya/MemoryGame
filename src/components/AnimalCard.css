@@ -1,0 +1,35 @@
+.animal {
+    position: relative;
+}
+
+.animal img {
+    width: 80%;
+    display: block;
+    background-image: url("/public/img/card.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 2px;
+}
+
+.animal .front {
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+    position: absolute;
+}
+
+.backSide .front {
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+
+
+.animal .back {
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+}
+
+.backSide .back {
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+}
